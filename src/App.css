@@ -36,12 +36,14 @@ body{
   gap: 10px;
 }
 .screen{
+  background-color: gray;
   grid-column: 1/-1;
   color: white;
-  text-align: center;
+  text-align: right;
   padding: 0.5rem;
   font-size: 4rem;
   overflow: hidden;
+  border-radius: 10px;
 }
 .btn{
   display: grid;
